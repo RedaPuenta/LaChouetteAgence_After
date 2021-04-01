@@ -1067,6 +1067,14 @@ h4 {
     margin: auto;
 }
 
+q::before{
+    quotes: "‟" "‟";
+}
+
+q::after{
+    quotes: "”" "”";
+}
+
 /*Poids des images*/
 @media screen and (max-width: 500px){
     .bg-banniere {
@@ -1095,9 +1103,13 @@ a{
     color: #424242!important;
 }
 
-p{
+p, address{
     color: black!important;
     font-size: 1.1em;
+}
+
+strong{
+    font-weight: normal;
 }
 
 .color-access{
