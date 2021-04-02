@@ -1119,3 +1119,16 @@ strong{
 .social .color-access:hover{
     color: white!important;
 }
+
+/*Navigation Tab Focus*/
+.focus-tab-black:focus-visible{
+    outline: 3px black solid!important;
+}
+
+.focus-tab-white:focus-visible{
+    outline: 3px white solid!important;
+}
+
+article a:focus-visible{
+    transform: scale(1.03);
+}
