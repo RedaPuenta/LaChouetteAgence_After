@@ -1075,18 +1075,7 @@ q::after{
     quotes: "”" "”";
 }
 
-/*Poids des images*/
-@media screen and (max-width: 500px){
-    .bg-banniere {
-        background-image: url("img/la-chouette-agence-banniere-mobile.jpg");
-    }
-    
-    .bg-presentation {
-        background-image: url("img/image-de-presentation-mobile.jpg");
-    }
-}
-
-/*Contraste*/
+/*AUDIT*/
 .btn-atomic-tangerine {
     color: #3B3B3B!important;
 }
@@ -1120,7 +1109,6 @@ strong{
     color: white!important;
 }
 
-/*Navigation Tab Focus*/
 .focus-tab-black:focus-visible{
     outline: 3px black solid!important;
 }
