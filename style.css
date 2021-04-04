@@ -1081,7 +1081,7 @@ q::after{
 }
 
 .btn-atomic-tangerine:hover {
-    color: #3B3B3B!important;
+    color: white!important;
 }
 
 .bg-access{
@@ -1119,4 +1119,10 @@ strong{
 
 article a:focus-visible{
     transform: scale(1.03);
+}
+
+.alert-warning {
+    color: black;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-color: red;
 }
